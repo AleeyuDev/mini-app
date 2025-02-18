@@ -38,8 +38,8 @@ exports.usersCreatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
-    usersStorage.addUser({ firstName, lastName });
+    const { firstName, lastName , Email, Age, Bio} = req.body;
+    usersStorage.addUser({ firstName, lastName, Email, Age, Bio });
     res.redirect("/");
   }
 ];

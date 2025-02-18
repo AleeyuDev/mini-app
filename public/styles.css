@@ -1,0 +1,76 @@
+.form-card {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    background-color: rgb(13, 47, 77);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   color: #fff;
+
+
+   
+}
+label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+
+.form-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.form-card input[type="text"],
+.form-card  input[type="email"], input[type="number"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    outline: none;
+    transition: 0.3s;
+    border-radius: 8px;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form-card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    outline: none;
+    transition: 0.3s;
+    border-radius: 8px;
+    color: #333;
+}
