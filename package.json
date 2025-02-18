@@ -1,0 +1,25 @@
+{
+  "name": "mini-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "server": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleeyuDev/mini-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleeyuDev/mini-app/issues"
+  },
+  "homepage": "https://github.com/AleeyuDev/mini-app#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1"
+  }
+}
